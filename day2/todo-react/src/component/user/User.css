@@ -1,0 +1,14 @@
+.menu-div{
+    background-color: #c9d1d0;
+    height: 50px;
+}
+.menu-user li{
+    display:inline;
+    margin: 50px;
+}
+
+.menu-item li{
+    display:inline;
+    margin: 50px;
+    
+}

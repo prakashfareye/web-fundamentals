@@ -1,0 +1,12 @@
+.item{
+    
+}
+.menu li{
+    display:inline;
+    margin: 50px;
+}
+
+.menu-item li{
+    display:inline;
+    margin: 50px;
+}
