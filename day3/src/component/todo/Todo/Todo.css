@@ -1,0 +1,22 @@
+.todo-container{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.header{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-style: bold;
+    font-weight: bold;
+}
+
+.btn-drawer{
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+.ant-table-thead .ant-table-cell {
+    background-color: 	#D0D0D0;
+}
