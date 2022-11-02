@@ -1,0 +1,108 @@
+.row {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .col-2 h1 {
+    color: #FFFFFF;
+    font-size: 50px;
+    line-height: 60px;
+    margin: 10px 0;
+  }
+  
+  .col-2 span {
+    color: #6100FF;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .text-container {
+    margin-left: 250px;
+    margin-top: 160px;
+    color: #FFFFFF;
+  }
+
+  .header-text{
+    color: #FFFFFF;
+  }
+  
+  .form-container {
+    margin-top: 180px;
+    margin-left: 80px;
+  }
+  
+  form input {
+    width: 60%;
+    height: 40px;
+    margin: 8px 0;
+    padding: 0 10px;
+    background-color: #eaf0f7;
+    border: 0px solid #ccc;
+    border-radius: 10px;
+    color: #000;
+  }
+  
+  form .btn {
+    width: 60%;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  form .btn:focus {
+    outline: none;
+  }
+  
+  .btn {
+    display: inline-block;
+    background: #6100FF;
+    color: #fff;
+    margin-top: 10px;
+    padding: 8px 30px;
+    border-radius: 10px;
+    transition: background 0.5s;
+  }
+  
+  .btn-register {
+    position: absolute;
+    right: 180px;
+    top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    background: #fff;
+    color: #000;
+    cursor: auto;
+    border-width: 0px;
+    transition: background 0.5s;
+  }
+  
+  .btn-signin {
+    display: inline-block;
+    position: absolute;
+    right: 80px;
+    top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    box-shadow: #fff;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border-width: 0px;
+    background: #eaf0f7;
+    color: #000;
+    transition: background 0.5s;
+    cursor: pointer;
+  }

@@ -3,20 +3,45 @@
     margin-right: 80px;
 }
 
-.header{
-    margin-top: 10px;
+.header-container{
+    height: 80px;
+}
+
+.todo-content{
+    background-color: #141414;
+    border-radius: 20px;
+}
+
+.title-container{
     display: flex;
     justify-content: space-between;
     font-size: 20px;
     font-style: bold;
-    font-weight: bold;
+    padding: 14px;
+}
+
+.title-container h1{
+    color: #D0D0D0;
 }
 
 .btn-drawer{
     align-items: flex-end;
     margin-top: 20px;
+    background-color: #6100FF;
 }
 
 .ant-table-thead .ant-table-cell {
-    background-color: 	#D0D0D0;
+    background-color: #1F1F1F;
+    color: #D0D0D0;
 }
+
+.ant-table-row{
+    background-color: #141414;
+    color: #D0D0D0;
+    /* color:red */
+}
+
+.hello-text{
+    color: #FFFFFF;
+    margin-top: 30px;
+  }

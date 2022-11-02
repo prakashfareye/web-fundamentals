@@ -1,0 +1,10 @@
+.table-striped-rows tr:nth-child(2n) td {
+    background-color: red;
+}
+.table-striped-rows thead {
+    background-color: green;
+}
+
+.ant-table-thead{
+    background-color: red;
+}

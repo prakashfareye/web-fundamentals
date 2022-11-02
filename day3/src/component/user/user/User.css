@@ -1,21 +1,32 @@
 .user-container{
     margin-left: 80px;
     margin-right: 80px;
+    
 }
 
-.header{
-    margin-top: 10px;
+.header-container{
+    height: 80px;
+}
+
+.user-content{
+    background-color: #201B41;
+    border-radius: 20px;
+    padding: 14px;
+
+}
+
+.title-container{
     display: flex;
     justify-content: space-between;
     font-size: 20px;
     font-style: bold;
 }
 
-.btn-drawer{
-    align-items: flex-end;
-    margin-top: 20px;
+.title-container h1{
+    color: #D0D0D0;
 }
 
-.ant-table-thead .ant-table-cell {
-    background-color: 	#D0D0D0;
+.btn-drawer{
+    align-items: flex-end;
+    background-color: #6100FF;
 }
